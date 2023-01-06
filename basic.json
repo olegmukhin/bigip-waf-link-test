@@ -1,0 +1,16 @@
+{
+    "policy": {
+        "name": "PolicyApp01",
+        "description": "PolicyApp01 Description Example",
+        "template": {
+            "name": "POLICY_TEMPLATE_RAPID_DEPLOYMENT"
+        },
+        "enforcementMode": "blocking",
+        "server-technologies": [
+            {
+                "serverTechnologyName": "MySQL"
+            }
+        ],
+    },
+    "modifications": []
+}
