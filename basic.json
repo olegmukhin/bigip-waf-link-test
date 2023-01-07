@@ -1,9 +1,9 @@
 {
     "policy": {
-        "name": "PolicyApp01",
+        "name": "REMOTE_TEMPLATE",
         "description": "PolicyApp01 Description Example",
         "template": {
-            "name": "POLICY_TEMPLATE_RAPID_DEPLOYMENT"
+            "name": "POLICY_TEMPLATE_API_SECURITY"
         },
         "enforcementMode": "blocking",
         "server-technologies": [
