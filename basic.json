@@ -6,6 +6,7 @@
             "name": "POLICY_TEMPLATE_API_SECURITY"
         },
         "enforcementMode": "blocking",
+        "applicationLanguage": "utf-8",
         "server-technologies": [
             {
                 "serverTechnologyName": "MySQL"
