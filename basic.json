@@ -11,6 +11,168 @@
             {
                 "serverTechnologyName": "MySQL"
             }
-        ]
+        ],
+        "parameters" : [
+         {
+            "allowEmptyValue" : true,
+            "allowRepeatedParameterName" : true,
+            "attackSignaturesCheck" : true,
+            "checkMaxValueLength" : false,
+            "checkMinValueLength" : false,
+            "dataType" : "alpha-numeric",
+            "enableRegularExpression" : false,
+            "isBase64" : false,
+            "isCookie" : false,
+            "isHeader" : false,
+            "level" : "url",
+            "mandatory" : false,
+            "metacharsOnParameterValueCheck" : true,
+            "name" : "Param1-github",
+            "parameterLocation" : "any",
+            "performStaging" : true,
+            "sensitiveParameter" : false,
+            "type" : "explicit",
+            "url" : {
+               "method" : "*",
+               "name" : "/URL2",
+               "protocol" : "http",
+               "type" : "wildcard"
+            },
+            "valueType" : "user-input"
+         },
+         {
+            "allowEmptyValue" : true,
+            "allowRepeatedParameterName" : true,
+            "attackSignaturesCheck" : true,
+            "checkMaxValueLength" : false,
+            "checkMinValueLength" : false,
+            "dataType" : "alpha-numeric",
+            "enableRegularExpression" : false,
+            "isBase64" : false,
+            "isCookie" : false,
+            "isHeader" : false,
+            "level" : "url",
+            "mandatory" : false,
+            "metacharsOnParameterValueCheck" : true,
+            "name" : "Param2-github",
+            "parameterLocation" : "any",
+            "performStaging" : true,
+            "sensitiveParameter" : false,
+            "type" : "explicit",
+            "url" : {
+               "method" : "*",
+               "name" : "/URL2",
+               "protocol" : "http",
+               "type" : "wildcard"
+            },
+            "valueType" : "user-input"
+         }
+      ],
+      "urls" : [
+         {
+            "attackSignaturesCheck" : true,
+            "clickjackingProtection" : false,
+            "description" : "",
+            "disallowFileUploadOfExecutables" : false,
+            "html5CrossOriginRequestsEnforcement" : {
+               "enforcementMode" : "disabled"
+            },
+            "isAllowed" : true,
+            "mandatoryBody" : false,
+            "metacharsOnUrlCheck" : false,
+            "method" : "*",
+            "methodsOverrideOnUrlCheck" : false,
+            "name" : "/URL1-github",
+            "performStaging" : false,
+            "protocol" : "http",
+            "type" : "wildcard",
+            "urlContentProfiles" : [
+               {
+                  "headerName" : "*",
+                  "headerOrder" : "default",
+                  "headerValue" : "*",
+                  "type" : "apply-value-and-content-signatures"
+               },
+               {
+                  "headerName" : "Content-Type",
+                  "headerOrder" : "1",
+                  "headerValue" : "*form*",
+                  "type" : "form-data"
+               },
+               {
+                  "contentProfile" : {
+                     "name" : "Default"
+                  },
+                  "headerName" : "Content-Type",
+                  "headerOrder" : "2",
+                  "headerValue" : "*json*",
+                  "type" : "json"
+               },
+               {
+                  "contentProfile" : {
+                     "name" : "Default"
+                  },
+                  "headerName" : "Content-Type",
+                  "headerOrder" : "3",
+                  "headerValue" : "*xml*",
+                  "type" : "xml"
+               }
+            ],
+            "wildcardIncludesSlash" : true,
+            "wildcardOrder" : 2
+         },
+         {
+            "attackSignaturesCheck" : true,
+            "clickjackingProtection" : false,
+            "description" : "",
+            "disallowFileUploadOfExecutables" : false,
+            "html5CrossOriginRequestsEnforcement" : {
+               "enforcementMode" : "disabled"
+            },
+            "isAllowed" : true,
+            "mandatoryBody" : false,
+            "metacharsOnUrlCheck" : false,
+            "method" : "*",
+            "methodsOverrideOnUrlCheck" : false,
+            "name" : "/URL2-github",
+            "performStaging" : false,
+            "protocol" : "http",
+            "type" : "wildcard",
+            "urlContentProfiles" : [
+               {
+                  "headerName" : "*",
+                  "headerOrder" : "default",
+                  "headerValue" : "*",
+                  "type" : "apply-value-and-content-signatures"
+               },
+               {
+                  "headerName" : "Content-Type",
+                  "headerOrder" : "1",
+                  "headerValue" : "*form*",
+                  "type" : "form-data"
+               },
+               {
+                  "contentProfile" : {
+                     "name" : "Default"
+                  },
+                  "headerName" : "Content-Type",
+                  "headerOrder" : "2",
+                  "headerValue" : "*json*",
+                  "type" : "json"
+               },
+               {
+                  "contentProfile" : {
+                     "name" : "Default"
+                  },
+                  "headerName" : "Content-Type",
+                  "headerOrder" : "3",
+                  "headerValue" : "*xml*",
+                  "type" : "xml"
+               }
+            ],
+            "wildcardIncludesSlash" : true,
+            "wildcardOrder" : 1
+         }
+      ]
     }
 }
