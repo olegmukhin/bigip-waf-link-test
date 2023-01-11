@@ -34,7 +34,7 @@
             "type" : "explicit",
             "url" : {
                "method" : "*",
-               "name" : "/URL2",
+               "name" : "/URL2-github",
                "protocol" : "http",
                "type" : "wildcard"
             },
@@ -61,7 +61,7 @@
             "type" : "explicit",
             "url" : {
                "method" : "*",
-               "name" : "/URL2",
+               "name" : "/URL2-github",
                "protocol" : "http",
                "type" : "wildcard"
             },
