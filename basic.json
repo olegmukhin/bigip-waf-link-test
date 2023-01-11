@@ -11,11 +11,6 @@
             {
                 "serverTechnologyName": "MySQL"
             }
-        ],
-        "open-api-files": [
-           {
-           "link": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/api-with-examples.yaml"
-           }
         ]
     }
 }
