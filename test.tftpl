@@ -3,14 +3,11 @@
         "name": "PolicyApp01",
         "description": "PolicyApp01 Description Example",
         "template": {
-            "name": "${template_name}"
+            "name": "xyz"
         },
+        "applicationLanguage": "${application_language}"
         "enforcementMode": "blocking",
-        "server-technologies": [
-            {
-                "serverTechnologyName": "MySQL"
-            }
-        ],
+        "server-technologies": ${server_technologies},
         "signature-settings": {
             "signatureStaging": false
         },
